@@ -1,0 +1,35 @@
+/* CSS declarations go here */
+.super {
+	background-color: grey;
+	border-radius: 10%;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 20px;
+	border: 15px dashed black;
+	text-align: center;
+	font-family: Courier;
+	color: blue;
+	font-size:15px;
+	font-weight: bold;
+	display:inline-block;
+}
+
+.Batman{
+	color:yellow;
+}
+
+.Superman{
+	color:red;
+}
+
+.Spiderman{
+	color:blue;
+}
+
+.login{
+	float: right;
+}
+
+.static{
+	max-width: 1200px;
+}

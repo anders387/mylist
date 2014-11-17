@@ -1,0 +1,39 @@
+<head>
+  <title>myList</title>
+</head>
+
+<template name="homePage">
+  <h1>This is the Homepage!</h1>
+<hr>
+{{> button}}
+<hr>
+{{> form}}
+</template>
+
+<template name="button">
+	<div class="container">
+		{{#if happy}}
+			<button class="butter">
+				Go to new Route!
+			</button>
+		{{else}}
+			<div>
+				No button!
+			</div>
+		{{/if}}
+	</div>
+</template>
+
+<template name="form">
+	<form class="form1">
+		<input id="inputBox1" placeholder="username" type="text">
+	</form>
+</template>
+
+<template name="friendsList">
+	<div>	This is your friendsList </div>
+	- Marc
+	- Andrew
+	- Jason
+</template>
+

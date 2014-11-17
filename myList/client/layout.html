@@ -1,0 +1,9 @@
+<template name="layout">
+	<div class="static"> This is the permanent (static) layout component
+		<div class="login"> {{> loginButtons}} </div>
+	</div>
+
+
+	{{> yield}} <!-- This is the dynamic content -->
+
+</template>
